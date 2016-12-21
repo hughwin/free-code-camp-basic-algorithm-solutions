@@ -1,15 +1,11 @@
-
 function mutation(arr) {
-	first =  arr[0].toString().toLowerCase();
-	second = arr[1].toString().toLowerCase();
-	for (var i=0; i < second.length; i++){
-	if (first.indexOf(second[i]) == - 1){
-	return false;
-	}
-}
+test = arr[0].indexOf(arr[1][);
+  console.log(arr);
+console.log(test);
+if(test === 0){
 return true;
 }
+else return false;
+}
 
-
-
-mutation(["hello", "hey"]);
+mutation(["hello", "hello"]);
